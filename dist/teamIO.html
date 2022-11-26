@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Team</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style sheet/style.css">
+</head>
+
+<body>
+    <div class="container-fluid"> <!-- container-fluid makes the the width equal to view width -->
+        <div class="row"> <!-- Sets to row -->
+            <div class="col-12 jumbotron"> <!-- sets column & jumbotron -->
+                <h1 class="text-center">My Team</h1> <!-- Centers text -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container "> <!-- container is responsive & fixed-width -->
+        <div class="row">
+            <div class="cardArea col-12 d-flex justify-content-center"> <!-- Centers content and create a flexbox container -->
+                
+        <div class="card employee"> <!-- bootstrap card + custom employee class to set styling -->
+            <div class="card-header"> <!-- bootstrap card-header styling -->
+                <h2 class="card-title d-flex justify-content-center">Alyse</h2> <!-- bostrap card-title with flex box centering content -->
+                <h3 class="card-title d-flex justify-content-center">Manager</h3>
+            </div>
+            <div class="card-body body"> <!-- bootstrap card-body stlying & custom body styling with flex-box -->
+                <ul class="list-group"> <!-- ul bootstrap styling -->
+                    <li class="list-group-item listItems">id: 1</li> <!-- Boostrap list-group-item stlying plus listItems stlying class that sets text color and no text-decoration -->
+                    <li class="list-group-item listItems">Email: <a href="mailto:alyse@gmail.com">alyse@gmail.com</a></li>
+                    <li class="list-group-item listItems">Office Number: 14123</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card employee">
+            <div class="card-header">
+                <h2 class="card-title d-flex justify-content-center">Joseph</h2>
+                <h3 class="card-title d-flex justify-content-center">Engineer</h3>
+            </div>
+            <div class="card-body body">
+                <ul class="list-group">
+                    <li class="list-group-item listItems">id: 2</li>
+                    <li class="list-group-item listItems">Email: <a href="mailto:josephpicardat@gmail.com">josephpicardat@gmail.com</a></li>
+                    <li class="list-group-item listItems">GitHub: <a href="https://github.com/josephpicardat">josephpicardat</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="card employee">
+            <div class="card-header">
+                <h2 class="card-title d-flex justify-content-center">Nicky</h2>
+                <h3 class="card-title d-flex justify-content-center">Intern</h3>
+            </div>
+            <div class="card-body body">
+                <ul class="list-group">
+                    <li class="list-group-item listItems">id: 3</li>
+                    <li class="list-group-item listItems">Email: <a href="mailto:nicky@gmail.com">nicky@gmail.com</a></li>
+                    <li class="list-group-item listItems">School: Dripping Springs High School</li>
+                </ul>
+            </div>
+        </div>
+    ,
+        <div class="card employee">
+            <div class="card-header">
+                <h2 class="card-title d-flex justify-content-center">james</h2>
+                <h3 class="card-title d-flex justify-content-center">Intern</h3>
+            </div>
+            <div class="card-body body">
+                <ul class="list-group">
+                    <li class="list-group-item listItems">id: 4</li>
+                    <li class="list-group-item listItems">Email: <a href="mailto:james@gmail.com">james@gmail.com</a></li>
+                    <li class="list-group-item listItems">School: University of Texas at Austin</li>
+                </ul>
+            </div>
+        </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

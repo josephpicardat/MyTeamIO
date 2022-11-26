@@ -1,0 +1,51 @@
+:root {
+    --darkBackground: #303841;
+    --lightDarkBackground: #3A4750;
+    --jumbotron: #4A9B9A;
+    --accentColor: #00ADB5;
+    --textColor: #EEEEEE;
+}
+
+.jumbotron {
+    background-color: var(--jumbotron);
+    color: #ffffff;
+}
+
+.cardContainer, body {
+    background-color: var(--darkBackground);
+}
+
+.cardArea {
+    max-width: 95vw;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+    background-color: var(--darkBackground);
+}
+
+.employee {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    max-width: 300px;
+    width: 95%;
+    min-height: 20rem;
+    background-color: var(--accentColor);
+    color: var(--textColor);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    border: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--lightDarkBackground);
+}
+
+.listItems {
+    color: #000000;
+    background-color: var(--textColor);
+    text-decoration: none;
+}
+  

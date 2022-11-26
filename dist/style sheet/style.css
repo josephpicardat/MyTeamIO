@@ -1,4 +1,4 @@
-:root {
+:root { /*color variables */
     --darkBackground: #303841;
     --lightDarkBackground: #3A4750;
     --jumbotron: #4A9B9A;
@@ -15,14 +15,14 @@
     background-color: var(--darkBackground);
 }
 
-.cardArea {
+.cardArea { /* The container that holds the cards */
     max-width: 95vw;
     margin: 3rem auto;
     flex-wrap: wrap;
     background-color: var(--darkBackground);
 }
 
-.employee {
+.employee { /* styling for each card */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,14 +36,14 @@
     border: none;
 }
 
-.body {
+.body { /* the body in each card */
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: var(--lightDarkBackground);
 }
 
-.listItems {
+.listItems { /* the items in the list within the cards */
     color: #000000;
     background-color: var(--textColor);
     text-decoration: none;

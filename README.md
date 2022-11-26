@@ -37,7 +37,7 @@ What did I learn?
 
 Walkthrough video: https://drive.google.com/file/d/1XOrw6I5TVaw6ikwxowvS6IYTvJfscFN9/view?usp=share_link
 
-![Example of generated HTML](./assets/MyTeamIO-Image.png)
+![Example of generated HTML](./Assets/MyTeamIO-Image.png)
 
 ## Contributing
 
